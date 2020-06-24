@@ -16,7 +16,7 @@ At the last stop, b[i] should be equal to 0 and a[i] to the current number of pa
 
 ## *Output format:*
 
-An unsigned integer with the capacity of the bus. 0 is the valid value.
+An unsigned integer with the capacity of the bus. 0 is a valid value.
 
 ## *Example:*
 
@@ -27,8 +27,8 @@ _Output:_ ``6``
 
 For the first example, a capacity of 6 is sufficient:
 - At the first stop, the number of passengers inside the bus is 0. Then, 3 passengers enter the bus, and the total number inside the bus becomes 3.
-- At the second stop, 2 passengers exit the bus (1 passenger remains inside). Then, 5 passengers enter the bus. The total is 6 now.
-- At the third stop, 4 passengers exit the bus (2 passengers remain inside). Then, 2 passengers enter the bus There are 4 passengers inside the bus now.
+- At the second stop, 2 passengers exit the bus (1 passenger remains inside). Then, 5 passengers enter the bus. The total is now 6.
+- At the third stop, 4 passengers exit the bus (2 passengers remain inside). Then, 2 passengers enter the bus There are now 4 passengers inside the bus.
 - Finally, all the remaining passengers inside the bus exit at the last stop. There are no passengers in the bus now, in line with the constraints.
 
 Since the number of passengers inside the bus never exceeds 6, a capacity of 6 is sufficient.
