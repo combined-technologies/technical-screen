@@ -1,4 +1,4 @@
-Please submit a link to your github repository or create one with the solution in C# or C++ for the following problem:
+Please submit a link to your github repository with the solution.
 
 # A bus 
 A bus link has `` N `` stops numbered from 1 to N in the order of the bus movement. 
