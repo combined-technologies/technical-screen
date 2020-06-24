@@ -23,7 +23,7 @@ An unsigned integer with the capacity of the bus. 0 is the valid value.
 _Input:_ ``[(0,3), (2,5), (4,2), (4,0)]``
 _Output:_ ``6``
 
-## *Explanation:*
+### *Explanation:*
 
 For the first example, a capacity of 6 is sufficient:
 - At the first stop, the number of passengers inside the bus is 0. Then, 3 passengers enter the bus, and the total number inside the bus becomes 3.
