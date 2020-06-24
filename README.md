@@ -26,10 +26,10 @@ _Output:_ ``6``
 ### *Explanation:*
 
 For the first example, a capacity of 6 is sufficient:
-- At the first stop, the number of passengers inside the bus is 0. Then, 3 passengers enter the bus, and the total number inside the bus becomes 3.
-- At the second stop, 2 passengers exit the bus (1 passenger remains inside). Then, 5 passengers enter the bus. The total is now 6.
-- At the third stop, 4 passengers exit the bus (2 passengers remain inside). Then, 2 passengers enter the bus There are now 4 passengers inside the bus.
-- Finally, all the remaining passengers inside the bus exit at the last stop. There are no passengers in the bus now, in line with the constraints.
+- At the first stop, the number of passengers inside the bus is 0. Then 3 passengers enter the bus, and the total number on the bus becomes 3.
+- At the second stop, 2 passengers exit the bus (1 passenger remains inside). Then 5 passengers enter the bus. The total is now 6.
+- At the third stop, 4 passengers exit the bus (2 passengers remain inside). Then 2 passengers enter the bus. There are now 4 passengers on the bus.
+- Finally, all the remaining passengers on the bus exit at the last stop. There are no passengers on the bus now, in line with the constraints.
 
-Since the number of passengers inside the bus never exceeds 6, a capacity of 6 is sufficient.
+Since the number of passengers on the bus never exceeds 6, a capacity of 6 is sufficient.
 
