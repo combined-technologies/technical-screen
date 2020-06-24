@@ -8,22 +8,22 @@ The bus is empty at the first stop and all passengers exit at the last stop.
 The task is to calculated bus minimum capacity such that the number of the passengers at any time never exceeds it. 
 Note that at each stop all exiting passengers exit before any entering passenger enters the tram.
 
-*Input format:*
+## *Input format:*
 
 The input is a vector of pairs `` <a[i], b[i]>, (0 <= a[i], b[i] <= 1000)  `` that describe passengers that exit and enter the bus at the i-th stop.
 The number of people who exit at a given stop should not exceed the number of people present in the bus.
 At the last stop, b[i] should be equal to 0 and a[i] to the current number of passengers. 
 
-*Output format:*
+## *Output format:*
 
 An unsigned integer with the capacity of the bus. 0 is the valid value.
 
-*Example:*
+## *Example:*
 
-_Input:_ [(0,3), (2,5), (4,2), (4,0)]
-_Output:_ 6
+_Input:_ ``[(0,3), (2,5), (4,2), (4,0)]``
+_Output:_ ``6``
 
-*Explanation:*
+## *Explanation:*
 
 For the first example, a capacity of 6 is sufficient:
 - At the first stop, the number of passengers inside the bus is 0. Then, 3 passengers enter the bus, and the total number inside the bus becomes 3.
