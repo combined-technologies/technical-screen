@@ -5,8 +5,8 @@ A bus link has `` N `` stops numbered from 1 to N in the order of the bus moveme
 
 At i-th stop `` a[i] `` passengers exit the bus and `` b[i] `` passengers enter it. 
 The bus is empty at the first stop and all passengers exit at the last stop. 
-The task is to calculated bus minimum capacity such that the number of the passengers at any time never exceeds it. 
-Note that at each stop all exiting passengers exit before any entering passenger enters the tram.
+The task is to calculate the bus minimum capacity such that the number of the passengers at any time never exceeds it. 
+Note that at each stop all exiting passengers exit before any entering passenger enters the bus.
 
 ## *Input format:*
 
